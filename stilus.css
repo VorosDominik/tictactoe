@@ -1,0 +1,27 @@
+.elem{
+    border: 1px solid purple;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin: auto;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    padding: auto;
+
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(119, 129, 129);
+}
